@@ -1,3 +1,15 @@
 html {
-  font-family: "Dosis"
+  font-family: "Dosis";
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: #591a0b;
+  font-weight: 900;
 }
