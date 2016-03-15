@@ -1,15 +1,45 @@
-html {
-  font-family: "Dosis";
-  box-sizing: border-box;
-  text-align: center;
-
-}
-
 body {
   margin: 0;
 }
 
+html {
+  font-family: "Dosis";
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  line-height: normal;
+  border-width: medium;
+  border-color: #795437;
+}
+
 h1 {
   color: #591a0b;
-  font-weight: 900;
+  font-weight: bold;
+  background-color: #efeee9;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #9a816d;
+  padding-left: 4em;
+  padding-right: 4em;
+  color: #efeee9;
+  margin: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2em;
+  border-color: #795437;
+}
+
+li {
+  border: 1em;
+  border-width: 2em;
+  border-color: #795437;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+li:hover {
+  background-color: #795437;
+  color: #fffef8;
 }
